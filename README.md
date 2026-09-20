@@ -3,7 +3,7 @@
 Application mobile de prise de notes développée avec **Flutter** et une base de données locale **SQLite**.
 Projet de la semaine 6 - Développement Mobile, niveau intermédiaire (DCLIC / OIF).
 
-**Auteur :** Mahugnon Gildas Gnonhossou
+**Auteur :** GNONHOSSOU Gildas Mahugnon
 
 ## Fonctionnalités
 
