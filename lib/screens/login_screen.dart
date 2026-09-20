@@ -107,17 +107,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     // Logo léger : une icône vectorielle, aucune image à charger.
                     Center(
-                      child: Container(
-                        width: 88,
-                        height: 88,
-                        decoration: BoxDecoration(
-                          color: scheme.primaryContainer,
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Icon(
-                          Icons.sticky_note_2_outlined,
-                          size: 48,
-                          color: scheme.onPrimaryContainer,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(20),
+                        child: Image.asset(
+                          'assets/images/logo.png',
+                          width: 88,
+                          height: 88,
+                          fit: BoxFit.cover,
+                          cacheWidth: 176,
                         ),
                       ),
                     ),
